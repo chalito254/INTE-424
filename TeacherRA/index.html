@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>home page</title>
+</head>
+
+<body>
+    
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="">Teacher Recruitment App</a></div>
+            <ul>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="signup.php">signup</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Teacher recruitment app</p>
+            <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil rerum itaque quisquam!
+                Natus repudiandae nesciunt tempora odio amet. Saepe?</p>
+            
+        </section>
+
+        <section class="right">
+            <img src="images/img.svg" alt="Langing image">
+        </section>
+
+    </section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
+    </script>
+
+
+</body>
+
+</html>
